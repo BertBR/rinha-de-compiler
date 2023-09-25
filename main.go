@@ -231,7 +231,7 @@ type ValueValue struct {
 }
 
 func main() {
-	file, err := os.ReadFile("./files/fb.json")
+	file, err := os.ReadFile("./var/rinha/source.rinha.json")
 	if err != nil {
 		panic(err)
 	}
